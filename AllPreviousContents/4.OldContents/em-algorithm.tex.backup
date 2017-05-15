@@ -1,0 +1,128 @@
+\section{EM Algorithm}
+\label{sec:emalgorithm}
+
+An elegant and powerful method for finding maximum likelihood solutions
+for models with latent variables is the Expectation Maximization(EM)
+	algorithm. The EM algorithm is an iterative process through two
+	steps: an expectation step(E-step) and a maximization step(M-step). During the iterations, a sequence of model parameters ${\bf \theta^{0}}$
+, ${\bf \theta^{1}}$, ...., ${\bf \theta^{*}}$ is generated where ${\bf \theta^{0}}$ is the initial parameter and ${\bf \theta^{*}}$ is the converged parameter obtained when the algorithm terminates.
+
+\subsection{E-step}
+\label{subsec:estep}
+
+Suppose we have a data set of observations  ${\bf \overline{S}}$ = \{
+${\bf {s}}^{0}$, ${\bf {s}}^{1}$, ....,${\bf {s}}^{M}$\}. The E-step
+corresponds to finding the expected value of the hidden component ({\bf
+		x} and {\bf z}) values given the observed data  ${\bf \overline{S}}$ and the current parameter estimates.
+
+Using this observation set and the current parameter estimates, we find out the posterior probabilities (or responsibilities) as follows. 
+
+For each observation ${\bf {s}}^{l}$
+\begin{align}
+& \pi_{({x_{j}}, {z_{k}})}^{l}  = p({x_{j}} = 1, {z_{k}} = 1 | {\bf{s}}^{l}) \\ 
+& = \frac { p({x_{j}} = 1)p({z_{k}} = 1)p( {\bf {s}}^{l} | {x_{j}} = 1, {z_{k}} = 1)} {\ \sum_{p=1}^J \ \sum_{q=1}^{K} p({x_{p}} = 1) p({z_{q}} = 1) p( {\bf {s}}^{l} | {x_{p}} = 1, {z_{q}} = 1)} \nonumber \\
+& = \frac { \upsilon_{j} \ \tau_{k} N({\bf {s}}^{l} | {\bf {\mu}}_{j,k}, {\bf {\sigma}}_{j,k})} {\sum_{p=1}^J \sum_{q=1}^K \left[\upsilon_{p} \tau_{q} N({\bf {s}}^{l} | {\bf {\mu}}_{p,q}, {\bf {\sigma}}_{p,q})\right] }
+\end{align}
+
+The posterior probability value $\pi_{({x_{j}}, {z_{k}})}^{l}$ can be viewed as the {\it responsibility} that component $({x_{j}}, {z_{k}})$ takes for explaining observation ${\bf {s}}^{l}$. We find out this measure of responsibility for each observation in our data set ${\bf \overline{S}}$.
+
+\subsection{M-step}
+\label{subsec:mstep}
+
+The M-step of the algorithm corresponds to maximizing the likelihood of
+the observed data. This leads us to re-estimating the parameters for the next iteration based on the posterior probabilities calculated in the expectation step of the algorithm.
+\begin{align}
+\upsilon_{j} = \frac { \sum_{l=1}^{M} \ \sum_{k} \pi_{({x_{j}}, {z_{k}})}^{l}} {M}
+\end{align}
+
+\begin{align}
+\tau_{k} = \frac { \sum_{l=1}^{M} \ \sum_{j} \pi_{({x_{j}}, {z_{k}})}^{l}} {M}
+\end{align}
+
+\begin{align}
+\mu_{i \ (j,k)} = \frac  { \sum_{l=1}^{M} \pi_{({x_{j}}, {z_{k}})}^{l} s_{i}^{l}} {N_{j,k}}
+\end{align}
+
+where we have defined 
+\begin{align}
+{N_{j,k}} = \sum_{l=1}^{M} \pi_{({x_{j}}, {z_{k}})}^{l}
+\end{align}
+
+
+The variance parameter can also be updated accordingly.
+
+\subsection{Convergence of Log Likelihood}
+\label{subsec:convergenceofloglikelihood}
+
+Each update of the parameters resulting from an E-step followed by an
+M-step is guaranteed to increase the log likelihood function. The algorithm is deemed to have converged when the change in the log likelihood function falls below a threshold.
+
+\begin{align}
+\ln p({\bf \overline{S}} | {\bf \theta}) &= \sum_{l=1}^{M} \ln \left\{
+\sum_{j=1}^J \sum_{k=1}^K \upsilon_{j} \tau_{k} \mathcal N ({{\bf {s}}^{l}} | {{\bf {\mu}}_{j,k}}, {{\bf \sigma}_{j,k}})\right\} 
+\end{align}
+
+\subsection{Handling Identifiability in our Model}
+\label{subsec:handlingidentifiabilityinourmodel}
+
+\begin{figure}
+\centering
+\epsfig{file=Figs4Paper/CEWIT/GMM-LogLikelihood/LogLikelihood.eps, height=2in, width=3in}
+\caption{Convergence of log likelihood for 6 different instances of using GEM}
+\label{fig:loglikelihood}
+\end{figure}
+
+In \cite{Bishop:2006:PRM:1162264} Bishop et al discuss the problem of {\it
+identifiability} associated with assigning P sets of parameters to P
+components. The problem occurs because there are P! ways of assigning P
+sets of parameters to P components. 
+
+In our case each component can be represented as a (location,
+power-level ) pair. We handle the problem of identifiability as follows :
+
+\subsubsection{Indoor Radio Propagation Model}
+\label{subsubsec:indoorradiopropagationmodel}
+
+The indoor radio propagation model is represented as
+\begin{align}
+P_{Rx} = P_{0} - 10n\log\left(\frac {\it d} {\it d_{0}}\right) 
+\end{align}
+
+\noindent
+where $P_{0}$ is the received signal strength at a distance $d_{0}$ from the
+emitter. $P_{Rx}$ is the signal strength($s_{i}$) seen by receiver for a
+transmitter located at a distance {\it d} away from it. {\it n} is a
+parameter which models the behaviour of the environment. This formula
+effectively initializes the components representing different locations
+on the map.
+
+To initialize k components (say) which have a common location but vary in
+power-level, we make use of the observations made in Section
+\ref{subsec:transmissionpower} which show that the observed signal strength is linearly proportional to the transmission power. 
+Thus, once the formula above gives us the signal value for
+a specific location, we extrapolate the value linearly to initialize
+each of the k components for that location 
+
+In our experiments, we set n = 2. The corresponding signal strength was
+used to initialize the means ($\mu_{j, k}$). The standard deviation
+($\sigma_{j, k}$) was initialized to
+5 (and kept fixed to reduce computation time). As subsequent results
+show, a value of k = 45 is sufficient to hit a constant average error
+distance.
+
+\subsection{Final Location Estimate}
+\label{subsec:finallocationestimate}
+
+\begin{figure*}
+	\centering
+		\subfloat[CEWIT]{\includegraphics[height=2.5in, width=2in]{Figs4Paper/CEWIT/CEWIT-Map1.eps}} \quad \quad
+		\subfloat[CSD]{\includegraphics[height=1.5in, width=2.5in]{Figs4Paper/CSD/CSD-Map1.eps}}
+	\caption{The two testbeds where experiments were conducted}
+	\label{fig:experimenttestbed}
+\end{figure*}
+
+
+Given a real-time received signal vector ${\bf {s}}^{(obs)}$, we can now find the location with the highest probability. We do this by first finding the probability for each (location, power-level) pair and then marginalizing over the power-levels. Thus the estimated location index is given by $j^{*}$ where
+\begin{align}
+j^{*} = max_{j} \sum_{k} P({x_{j}} = 1, {z_{k}} = 1 | {\bf {s}}^{(obs)}) 
+\end{align}

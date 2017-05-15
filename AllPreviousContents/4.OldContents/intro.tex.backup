@@ -1,0 +1,61 @@
+\section{Introduction}
+\label{sec:introduction}
+
+Over the past decade, the increasing use of wireless networking has fueled the 
+use of wireless links to localize wireless clients in indoor spaces. This issue
+is increasingly finding attention both from research and business communities 
+as a perfect, general-purpose solution such as outdoors GPS has been elusive. Close scrutiny 
+of available techniques reveal that the more successful techniques require a substantial
+`pre-deployment' effort by way of creating RF maps, for example. 
+Technically, this is equivalent
+to `training' in a learning technique. Finer grain map creation makes localization 
+more accurate, but requires more effort. This additional burden has made these localization techniques less appealing in practice. 
+
+The received signal strength (RSS) based techniques are the most popular as commodity wireless devices are all capable of measuring RSS. Two general directions have emerged -- (i) client-based approach~\cite{} and infrastructure-based approach~\cite{Moraes:2006:CWL:1164783.1164799, Lim:2010:ZIL:1741400.1741464}. In the client-based approach, the client device measures the RSS as seen by it from various APs (access points). This information is used to locate the client. In the infrastructure-based approach, the network administrator can use simple sniffing devices (or APs doubling as sniffers) to monitor clients and record RSS from the client transmissions.  This sniffed RSS is used to localize the client. The infrastructure-based approach is more attractive for large scale deployment, because
+any arbitrary client without any specific installed application can still localize itself
+with the assistance of the infrastructure. It is also easier to deploy, manage and maintain. 
+
+In the discussion that follows, we specifically focus on WiFi-based localization using
+an infrastructure-based approach. WiFi is chosen because of the popularity of WiFi devices and WiFi-based WLAN systems. But the techniques used are not specific to any link layer technology. 
+
+
+%
+%alluring for large-scale deployments, especially if building and maintaining the model can be automated. Moreover, such techniques perform location estimation without requiring hardware and/or software changes on the client device, which make them particularly attractive.
+%
+%
+%
+%Recent research has recognized this issue; however the proposed technique is not universally applicable~\cite{}. The goal of our work 
+%to develop a unsupervised learning technique that works without any training
+%
+%the need for location-aware pervasive computing applications in indoor environments. Traditional GPS-based techniques have problems working indoor which make them unattractive for such fine-grained indoor localization. On the other hand, indoor wireless LAN (WLAN) technologies, which have been enthusiastically and widely adopted in enterprises and homes, give us interesting features like Received Signal Strength(RSS), Angle of Arrival(AoA) etc for robust location estimation. Received signal strength (RSS) is particularly interesting because current commercial hardware can be used to extract the signal strength of wireless frames being transmitted by a Wi-Fi device. 
+%
+%Several techniques [x, y, x] have demonstrated the viability of using the RSS metric for location estimation.   It is interesting to note here that most of these location-estimation systems can essentially be categorized in two distinct ways : a client-based approach [p, q, r] and an infrastructure-based approach [a, b, c]. In the client-based approach, the client device measures the signal strength as seen by it from various AP(Access Point). This information is used to locate the client. In the infrastructure-based approach, the network administrator can use simple sniffing devices (or APs masquerading as sniffers) to monitor clients and extract the RSS from the tx-client.  This sniffed information is used to locate the client. Considering ease of management, provisioning, security, deployment,  maintenance etc, the infrastructure-based model seems alluring for large-scale deployments, especially if building and maintaining the model can be automated. Moreover, such techniques perform location estimation without requiring hardware and/or software changes on the client device, which make them particularly attractive.
+%
+
+\subsection{Limitations of Training}
+
+In the existing indoor WiFi localization solutions the first phase is a pre-deployment `offline phase' or training phase aimed at building detailed RF maps or RF propagation models based on a survey of the target area. The second phase is the `online phase,' where a localization algorithm is used to provide a location estimate for an observed set of RSS measurements from the transmissions
+from a mobile client to be localized. There are three major drawbacks for this general approach. 
+\begin{enumerate}
+\item
+The device used during the `offline phase' may differ from the target device in the `online phase.' Unmodeled hardware devices operating at different transmit power levels can introduce significant variations in the signal patterns between the training device and the target device. This adversely affects the accuracy of location estimation~\cite{}. Experiments described later in this paper indicate how hardware variance between four common commodity WiFi devices can significantly degrade the positional accuracy of two commonly used localization algorithms. 
+\item
+The `offline phase' itself involves labor-intensive sampling of signal strength values at discretized locations in the target space. Again, experiments show that location accuracy depends significantly on the granularity of the training locations. If the training locations are sparse, the location estimates become substantially poorer.
+\item
+Static models built during the `offline phase' cannot counter time varying phenomena like movement of people, changing occupancy and surroundings etc. Most 
+`killer' applications of indoor localization would be in large shopping malls, airports, 
+convention centers etc., where such changes would be routine. 
+On the other hand, due to the reason 2 above, such models are difficult update regularly. 
+\end{enumerate}
+
+\subsection{Approach}
+
+\textbf{We propose GEM, a novel localization algorithm that uses XXX techniques .} GEM leverages the infrastructure based model while eliminating any pre-deployment effort. Packet transmissions made by a client are received on stationary sniffers (or access points doubling as sniffers) that extract the RSS and MAC id of the target client and report this information to a central localization server. Using this information, GEM builds a model for the target device and provides 
+a location estimate. The estimate can be made available to the client via a simple web-based
+application, e.g. 
+
+GEM provides several key benefits by eliminating the `offline phase.' First, by building a model for each target device effectively addresses the hardware variance problem. Thus GEM can be used across heterogeneous devices, each operating at different power levels.  Second, zero pre-deployment effort makes GEM particularly attractive for large indoor spaces. Third, GEM is a purely online algorithm : the model parameters get updated and modified based on real-time RSS observations. As such, GEM is able to adapt to dynamic changes in the target space.
+
+
+\textbf{Our results of deploying GEM in two different office buildings are promising. We specifically note that when measurements made using one device are used to localize a different device,  GEM is seen to perform better that RF signal map based techniques like RADAR[x] and Probabilistic[y]
+}

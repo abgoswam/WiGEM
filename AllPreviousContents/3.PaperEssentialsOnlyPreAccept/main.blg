@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: main.aux
+The style file: abbrv.bst
+Database file #1: sigproc.bib
+Warning--to sort, need author or key in soekris
+Warning--empty author in soekris
+Warning--empty journal in soekris
+Warning--empty year in soekris
+Warning--empty institution in Bilmes97agentle
+Warning--empty institution in Borman_theexpectation
+Warning--empty year in Borman_theexpectation
+Warning--there's a number but no volume in Dempster77maximumlikelihood
+Warning--empty institution in Reynolds
+Warning--empty year in Reynolds
+You've used 23 entries,
+            2118 wiz_defined-function locations,
+            652 strings with 8778 characters,
+and the built_in function-call counts, 8787 in all, are:
+= -- 898
+> -- 375
+< -- 12
++ -- 154
+- -- 126
+* -- 575
+:= -- 1375
+add.period$ -- 74
+call.type$ -- 23
+change.case$ -- 134
+chr.to.int$ -- 0
+cite$ -- 33
+duplicate$ -- 379
+empty$ -- 684
+format.name$ -- 126
+if$ -- 1918
+int.to.chr$ -- 0
+int.to.str$ -- 23
+missing$ -- 22
+newline$ -- 116
+num.names$ -- 44
+pop$ -- 154
+preamble$ -- 1
+purify$ -- 109
+quote$ -- 0
+skip$ -- 289
+stack$ -- 0
+substring$ -- 534
+swap$ -- 124
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 88
+warning$ -- 10
+while$ -- 85
+width$ -- 25
+write$ -- 265
+(There were 10 warnings)

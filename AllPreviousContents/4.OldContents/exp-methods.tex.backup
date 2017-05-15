@@ -1,0 +1,51 @@
+\section{Experiment Methodology}
+\label{sec:experimentmethodology}
+
+In this section, we describe our methodology for doing the experiments. We start with a description of our system setup. This is followed by an overview of the components of our sniffer devices. We then present details about the two testbeds where we conducted our experiments. Finally we round up this section by discussing the data collection process.
+
+\subsection{System Setup}
+\label{subsec:systemsetup}
+
+As mentioned briefly in Section \ref{sec:introduction}, our system architecture is along the lines of an infrastructure-based model of location-determination systems. Our system has two main components: stationary sniffer devices in the target space and a centralized server running the GEM algorithm. Sniffers provide overlapping coverage of the target area ( similar to how APs are typically deployed inside buildings ). The server notifies the sniffers about the mac-id of the target device, the channel number and the listening period. The sniffers then record the signal strength of all packets received that match the server's query. The recorded information is sent to the backed server which makes a location estimation using the GEM algorithm.
+
+In our current prototype, the server communicates with the sniffer devices using the pre-existing in-building power-line ethernet LAN. In the future, our sniffers functionality might be integrated directly into the WLAN APs of a production network. Enterprise APs usually have a centralized controller which can serve as our localization engine. This makes our architecture particularly interesting.
+
+\subsection{Sniffer Information}
+\label{subsec:snifferinformation}
+
+Our sniffer devices are responsible for capturing wireless transmissions made by a Tx-client. We use soekris-net4801 boards as our sniffer
+devices with atheros-based cm9 cards for wireless captures. Our sniffers are running Pyramid Linux (version 2.6.16-metrix) and we use the default
+MadWiFi driver which comes with this distribution (0.9.4.5 : svn 1485). 
+
+To capture packets we use the Tcpdump software (version 4.0.0 libpcap version 0.9.8) To obtain signal strength information, the MadWiFi driver allows a
+monitor mode interface to be created and configured with RadioTap header support. From the radio-tap header we can extract the
+Received Signal strength of each packet received by the sniffer. We verified that the MadWifi driver had a fixed noise-floor in each of our
+cm9 cards (-95 dbm). In fact the received signal strength of a frame reported by the MadWiFi driver is actually the SNR value (in db) obtained after subtracting the noise-floor from the raw signal strength value. We work directly with the RSSI value (in db) as reported by the driver.
+
+\begin{figure*}
+	\centering
+		\subfloat[CEWIT]{\includegraphics[height=1.5in, width=2.5in]{Figs4Paper/CEWIT/PowerPlot4Paper_CEWIT/PwrLvlPlot_cewit.eps}}
+		\subfloat[CSD]{\includegraphics[height=1.5in, width=2.5in]{Figs4Paper/CSD/PowerPlot4Paper_CSD/PwrLvlPlot_csd.eps}}
+	\caption{Avg Error distance as a function of the number of power levels}
+	\label{fig:powerlevelsvserrordistance}
+\end{figure*}
+
+\subsection{Testbed Details}
+\label{subsec:testbeddetails}
+
+We use two different testbeds to Experimentally validate our technique. The first, henceforth called CEWIT, is a large research and educational facility with a dimension of 65 $\times$ 50  meter square. The L-shaped floor comprises of several obstructions in the form of concrete walls, glass metal doors, server-rack cabinets housing a host of equipment gear etc. The second, henceforth called CSD, is a portion of the building housing Stony Brook University's Computer Science building. This rectangular-shaped floor has a dimension of 20 $\times$ 30 meter square and also contains several obstructions, including concrete walls, wooden partitions etc. Both these testbeds had a continuous flux of people moving around in the building while the experiments were conducted.
+
+\subsection{Data Collection Methodology}
+\label{subsec:datacollectionmethodology}
+
+We collect data from discrete locations in the target space. The CEWIT testbed is discretized into 45 distinct locations roughly every 5.5 meters. The CSD testbed is divided into 27 distinct locations roughly every 3.3 meters. As part of our location estimation effort we use multiple device types, and for each device, we transmit 200 ping packets from every distinct location of the corresponding testbed. This is typically done by having a user hold the mobile device and walk across the floor of the building briefly stopping at each marked location to transmit 200 ping packets. The ground truth is noted at each location before moving on to the new location. Note that the ground truth information is used only for evaluation of the localization error and is not supplied to GEM for training. Each ping packet is separated uniformly apart at a rate of 1 per second. On the server, the sequence number in the ping packet is used to form the vector of RSS values recorded by individual sniffers for each transmission. Thus, from each distinct location on the map and for each device type, we have a set of 200 RSS tuples. This comprises our entire data set that we use in this paper. Experiments on RADAR and Probabilistic (described later in this paper) use a subset of this dataset for building the RF signal map and the remainder data for calculating localization error. 
+
+\subsubsection{Test Devices}
+\label{subsubsec:testdevices}
+
+We perform our experiments with 4 different wireless devices - a laptop, an android phone, an iphone, a netbook. The laptop is a DELL Inspiron running Ubuntu v9.04. The android phone is a Google Nexus One. An iphone 3GS (iOS version 4.2.1) is also used. The netbook used is a DELL Latitude 1100  is [] and the netbook is []. Each device is using its default driver for WiFi transmissions. The devices are henceforth referred to as {\it Laptop}, {\it Android}, {\it iPhone} and {\it Netbook} respectively. The data is collected over a span of several days. We did not specifically orient the devices in any direction while making the ping transmissions.
+
+\subsubsection{Sniffer Position}
+\label{subsubsec:snifferposition}
+
+In the CEWIT testbed, we have six sniffer devices. The CSD testbed has four sniffers. The circular-dots in Figure \ref{fig:experimenttestbed} show the sniffer positions in each separate testbed. We assume knowledge of the sniffer positions in the map and use this information to calculate the signal strength values given by the indoor radio propagation model (Equation \ref{eqn:pathloss_2}). These values are used to initialize our algorithm as explained in Section \ref{subsec:handlingidentifiabilityinourmodel} .

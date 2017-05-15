@@ -1,0 +1,25 @@
+set xlabel "Received Signal Strength"
+set ylabel "Probability"
+
+set xrange [35:60]
+set yrange [0:0.2]
+
+set xtics 
+set ytics 
+set grid
+
+set term post eps color "Times-Roman Bold" 25
+set output 'gaussian.eps'
+#set title "Distribution of Received Signal Strength"
+set notitle
+set nokey
+
+set style data histogram
+set style fill solid border -1
+
+set datafile missing "x"
+
+plot	"Gaussian.csv" using 1:3 with boxes lc 3 
+
+set term wxt 0
+set output

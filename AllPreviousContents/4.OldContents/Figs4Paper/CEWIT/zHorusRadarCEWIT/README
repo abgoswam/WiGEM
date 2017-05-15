@@ -1,0 +1,265 @@
+The Rice Wireless Localization Toolkit V1.00
+============================================
+
+
+1. What does it do?
+-------------------
+
+The Rice Wireless Localization (RWL) Toolkit can be used to estimate
+the position of a device with an 802.11 wireless network interface,
+based on the observed signal strength of nearby wireless access points. 
+It is based on an algorithm that was published in the following paper:
+
+    Practical Robust Localization over Large-Scale 802.11 Wireless Networks
+    Andreas Haeberlen, Eliot Flannery, Andrew M. Ladd, Algis Rudys,
+    Dan S. Wallach, and Lydia E. Kavraki
+    Proceedings of the 10th ACM International Conference on Mobile Computing
+    and Networking (MOBICOM'04), Philadelphia, PA, September 2004
+    
+A copy of the paper is available at http://www.cs.rice.edu/~ahae/.
+
+
+2. What's in the package?
+-------------------------
+
+The package includes the RWL library, which contains the localization
+code, as well as the following five tools:
+
+   gather        Gathers signal strength measurements
+   
+   postprocess   Converts a set of signal strength measurements into a
+                 signal map that can be used for localization
+                 
+   signalmap     Displays a given signal map
+   
+   localize      Performs wireless localization
+   
+   autocalib     Demonstrates how to do auto-calibration
+   
+
+3. What do I need to use it?
+----------------------------
+   
+To use the RWL toolkit, you need a recent Linux kernel with Wireless
+Extensions v14 or higher (kernel 2.4.20 or newer) and a 802.11 wireless
+network card with a supported Linux driver. We have some experience
+with the ACX100, MadWifi and Orinoco drivers. Since we use only 
+standard Linux API calls, other drivers should work, too.
+
+Some of our tools and example programs use Java and require JDK 1.4.2
+or newer. The RWL library itself does not require Java.
+
+There are no special requirements for the access points themselves,
+so the RWL toolkit should work in any building that has an 802.11 
+network. To get good accuracy, the deployment should be dense enough
+that at least two or three access points are 'visible' at any location
+(see the MOBICOM'04 paper for details). Generally, if the wireless 
+network provides good coverage throughout the building, the density
+is high enough for localization.
+
+   
+4. How do I use it?
+-------------------
+
+Before you can perform localization, you need to generate a signal map:
+
+  1. Generate floor plans of all floors in your building, convert them
+     to GIF, and put them into the frontend/ subdirectory, using
+     names like 'floor1.gif', 'floor2.gif'... The example/ directory
+     already contains example floor plans for Duncan Hall, the computer
+     science building on the Rice University campus. 
+     
+  2. Create a text file that lists all the locations in your building.
+     Typically, locations are individual offices, sections of hallway, etc.
+     Each location should be written on a separate line, using the 
+     format <x> <y> <z> <name>, where <x> and <y> are the coordinates
+     of the location's center (in pixels) on the corresponding floor plan, 
+     <z> is the floor number, and <name> is a description of the location. 
+     The coordinates are required by our example applications to display
+     the current location; they are not required for localization.
+     An example file for Duncan Hall is provided as example/places.txt
+     
+  3. Create a list of all the access points in the building. The format
+     should be <bssid> <essid>. You can get this information e.g. from
+     the iwlist tool, which comes with the Linux wireless toolkit.
+     An example file for Duncan Hall is provided as example/ap.txt.
+     
+  4. Create a topology description of the building. This should be a text
+     file that lists all pairs (A,B) of locations where one can move
+     directly from A to B. For example, the file could contain:
+     
+         DH3006
+           - Hallway outside DH3007
+         DH3007
+           - Hallway outside DH3007
+         Hallway outside DH3007
+           - DH3006
+           - DH3007
+           - DH3009
+           - DH3010
+           - Hallway outside DH3004
+           
+     This means that one can move from office DH3006 to the hallway
+     outside office DH3007 and back, but not directly to office DH3007.
+     An example file for Duncan Hall is provided as example/neighbour.txt.
+
+  5. Run the 'gather' tool to collect data for the signal map, e.g. as
+     follows (you have to be root):
+  
+         ./gather example/places.txt example/ap.txt scans/
+         
+     The tool will display a floor plan, which is annotated with one
+     colored box for each location. The color of each box indicates 
+     how much data is available for that location; blue means no data,
+     and green means 100 data points or more.
+     Select your current floor level with the L1..L4 buttons, then click
+     on the box representing your current location, and click 'Start'.
+     Walk around slowly in the current location (to get a diverse set
+     of samples) until enough data has been collected, then click 'Start'
+     again and move to the next location. Repeat until a sufficient
+     amount of data has been collected. You can terminate and restart
+     the tool at any time; the data is saved in scans/ and will not 
+     be lost.
+     
+     In our experiment, we gathered 100 data points for 510 locations in
+     Duncan Hall. To avoid time-varying effects, we did most of our
+     measurements in two consecutive nights during spring break, when
+     the building was empty. Since we had to enter all the rooms using
+     a master key, which raises privacy and trust issues, we notified
+     all the residents of the building and gave them an opportunity to
+     object, or to be present during the experiment. More information on 
+     our methodology can be found in the MOBICOM'04 paper.
+      
+  6. Run the 'postprocess' tool to convert the measurements into a 
+     signal map. For example:
+     
+         ./postprocess example/places.txt example/ap.txt scans/ ml.txt compact.txt
+
+     This will create two output files, ml.txt and compact.txt. 
+     The former can be used with the 'signalmap' tool to visually inspect
+     the data set, while the latter can be used for localization.
+     
+  7. If you want, you can run the 'signalmap' tool to inspect the dataset:
+  
+         ./signalmap example/places.txt example/ap.txt ml.txt
+         
+     This will display the floor plans, annotated with one colored box
+     for each location. The color indicates the signal strength of 
+     a given access point at that location. You can use the buttons
+     to switch to a different floor, or to select a different access point.
+     
+  8. You are now ready to run the localization tool (you have to be root):
+  
+         ./localize example/places.txt example/neighbour.txt example/ap.txt compact.txt
+
+     This tool is just an example; it displays the floor plan of the
+     current floor with a crosshairs to indicate the current location
+     estimate.
+     
+     
+5. What if it doesn't work?
+---------------------------
+
+The RWL toolkit uses the 'base station scan' function in the wireless
+driver to measure the signal strength of all access points in range.
+Unfortunately, not all Linux drivers support this very well. In our
+experiments, we have used the following drivers:
+
+       - ACX100 driver 0.2.0pre6 (http://acx100.sourceforge.net/)
+       - MadWifi driver 0.8.5.2 (http://madwifi.org/)
+       - Orinoco driver 0.13e (http://ozlabs.org/people/dgibson/dldwd/)
+       
+Our reference driver is the ACX100 driver, since we used ACX100-based
+cards to collect our Duncan Hall dataset. In the following, we describe 
+some problems we have encountered with other drivers:
+
+  - If the 'gather' tool produces lots of empty scan files very quickly
+    (several per second), the driver probably returns no data or stale 
+    data while the scan is still in progress, rather than returning EAGAIN 
+    as it should. You can work around this problem by adding a usleep(...) 
+    call after the call to SIOCSIWSCAN. Normally, the card should take at 
+    least a few hundred milliseconds to do a scan.
+
+  - If lots of scan files are identical, the driver probably caches
+    the scan results; normally, the signal strength values should vary
+    slightly between scans. If your driver has this problem, you may
+    have to patch it.
+
+  - If the 'gather' tool crashes or cannot decode the list of access
+    points, your driver may return the SIOCGIWSCAN results in an
+    incorrect format. Try 'iwlist'; if that does not work either,
+    you may have to patch or update the driver.
+    
+Some drivers are overly cautious when doing base station scans; as a result,
+the scans take a long time, which decreases accuracy when tracking a mobile
+device and also increases the time it takes to collect data for the signal map.
+One option is to modify the driver to speed up scanning; another is to 
+use another scanning method, e.g. by putting the card into monitor mode and
+by recording the signal strength of beacon frames while cycling through
+the channels.
+    
+
+6. Where can I get more information?
+------------------------------------
+
+Our group has published several research papers on wireless localization.
+
+    Robotics-Based Location Sensing using Wireless Ethernet
+    Andrew M. Ladd, Kostas E. Bekris, Guillaume Marceau, Lydia E. Kavraki,
+    and Dan S. Wallach
+    Proceedings of the 8th ACM International Conference on Mobile Computing
+    and Networking (MOBICOM'02), Atlanta, GA, September 2002
+    
+    Using Wireless Ethernet for Localization
+    Andrew M. Ladd, Kostas E. Bekris, Guillaume Marceau, Algis Rudys,
+    Dan S. Wallach, and Lydia E. Kavraki
+    IEEE/RSJ International Conference on Intelligent Robots and Systems
+    (IROS'02), Lausanne, Switzerland, September 2002
+
+    Wireless LAN Location-Sensing for Security Applications
+    Ping Tao, Algis Rudys, Andrew M. Ladd, and Dan S. Wallach
+    Proceedings of the ACM Workshop on Wireless Security (WiSe),
+    San Diego, CA, September 2003.
+
+    On the Feasibility of Using Wireless Ethernet for Indoor Localization
+    Andrew M. Ladd, Kostas E. Bekris, Algis Rudys, Dan S. Wallach, 
+    and Lydia E. Kavraki
+    IEEE Transactions on Robotics and Automation, Vol. 20, No. 3, 
+    June 2004, pages 555-559.
+
+    Practical Robust Localization over Large-Scale 802.11 Wireless Networks
+    Andreas Haeberlen, Eliot Flannery, Andrew M. Ladd, Algis Rudys,
+    Dan S. Wallach, and Lydia E. Kavraki
+    Proceedings of the 10th ACM International Conference on Mobile Computing
+    and Networking (MOBICOM'04), Philadelphia, PA, September 2004
+
+    Robotics-Based Location Sensing using Wireless Ethernet
+    Andrew M. Ladd, Kostas E. Bekris, Algis Rudys, Lydia E. Kavraki, 
+    and Dan S. Wallach
+    Wireless Networks, Volume 11, Number 1-2, January 2005, pages 189-204.
+
+The specific techniques used in the RWL toolkit are described in the
+MOBICOM'04 paper.
+
+
+7. Who contributed to this project?
+-----------------------------------
+
+In alphabetical order:
+
+    Kostas E. Bekris
+    Eliot Flannery
+    Andreas Haeberlen
+    Lydia E. Kavraki
+    Andrew M. Ladd
+    Guillaume Marceau
+    Algis Rudys
+    Ping Tao
+    Dan S. Wallach
+
+We are grateful for the generous financial support of Microsoft and Schlumberger.
+The RWL toolkit is dedicated to the memory of Andrew M. Ladd (1978-2007), who
+played an enormous role in its design, implementation, and evaluation.
+
+If you have questions or comments about the RWL toolkit, please contact
+Andreas Haeberlen (ahae@cs.rice.edu) or Prof. Dan S. Wallach (dwallachWcs.rice.edu).
