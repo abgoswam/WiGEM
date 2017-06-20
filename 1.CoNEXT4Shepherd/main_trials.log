@@ -1,53 +1,36 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.9.21)  20 NOV 2011 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.15)  12 JUN 2017 19:31
 entering extended mode
-**C:/Users/agoswami/Dropbox/Localization-PaperWriteup/1.CoNEXT4Shepherd/main_tr
-ials.tex
-
-(C:/Users/agoswami/Dropbox/Localization-PaperWriteup/1.CoNEXT4Shepherd/main_tri
-als.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
-
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\sig-alte
-rnate-10pt-CoNEXT.cls
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+**./main_trials.tex
+(main_trials.tex
+LaTeX2e <2017-04-15>
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+(sig-alternate-10pt-CoNEXT.cls ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
-)
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count79
 ))
@@ -57,52 +40,50 @@ Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 \epsfxsize=\dimen104
 \epsfysize=\dimen105
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
-Package: amssymb 2009/06/22 v3.00
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
-Package: amsmath 2000/07/18 v2.13 AMS math features
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip41
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
-Package: amstext 2000/06/29 v2.01
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
-File: amsgen.sty 1999/11/30 v2.0
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen106
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
-Package: amsbsy 1999/11/29 v1.2d
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen107
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
-Package: amsopn 1999/12/14 v2.01 operator names
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count80
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count81
 \leftroot@=\count82
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count83
 \DOTSCASE@=\count84
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen108
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count85
 \c@MaxMatrixCols=\count86
 \dotsspace@=\muskip10
@@ -123,17 +104,15 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \multlinegap=\skip42
 \multlinetaggap=\skip43
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
 Document Class 'sig-alternate' <3rd January '07>. Hacked by Anja Feldmann
 Based in part upon document Style `acmconf' <22 May 89>. Hacked 4/91 by
 shivers@cs.cmu.edu, 4/93 by theobald@cs.mcgill.ca
 Excerpts were taken from (Journal Style) 'esub2acm.cls'.
-****** Bugs/comments/suggestions/technicalities to Gerry Murray -- murray@hq.ac
-m.org ******
+****** Bugs/comments/suggestions/technicalities to Gerry Murray -- murray@hq.acm.org ******
 Questions on the style, SIGS policies, etc. to Adrienne Griscti griscti@acm.org
-
 \footheight=\dimen115
 \@maxsep=\dimen116
 \@dblmaxsep=\dimen117
@@ -157,13 +136,12 @@ Questions on the style, SIGS policies, etc. to Adrienne Griscti griscti@acm.org
 LaTeX Warning: You have requested document class `sig-alternate-10pt-CoNEXT',
                but the document class provides `sig-alternate'.
 
-Document Class: sig-alternate 2007/03/01 - V1.9 - based on acmproc.cls V1.3 <No
-v. 30 '99>
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+Document Class: sig-alternate 2007/03/01 - V1.9 - based on acmproc.cls V1.3 <Nov. 30 '99>
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
 \@acmtitlebox=\box28
 \titlenotecount=\count101
@@ -190,13 +168,9 @@ Using 'Abbrev' bibliography style
 \acmcopyr=\toks33
 \boilerplate=\toks34
 \copyrightetc=\toks35
-)
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\caption.
-sty
+) (caption.sty
 Package: caption 2006/03/21 v3.0j Customising captions (AR)
-
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\caption3
-.sty
+ (caption3.sty
 Package: caption3 2006/03/16 v3.0j caption3 kernel (AR)
 \captionmargin=\dimen123
 \captionmarginx=\dimen124
@@ -206,9 +180,7 @@ Package: caption3 2006/03/16 v3.0j caption3 kernel (AR)
 \captionhangindent=\dimen128
 \abovecaptionskip=\skip44
 \belowcaptionskip=\skip45
-))
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\subfig.s
-ty
+)) (subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
 
@@ -246,29 +218,29 @@ Package subfig Warning: Your document class has a bad definition
 \c@lotdepth=\count115
 \sf@top=\skip49
 \sf@bottom=\skip50
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
-Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
 Package etexcmds Info: Could not find \expanded.
@@ -276,32 +248,30 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 130.
-)
-(C:\Users\agoswami\AppData\Roaming\MiKTeX\2.9\tex\latex\ulem\ulem.sty
+Package color Info: Driver file: pdftex.def on input line 147.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
 \UL@box=\box30
 \UL@hyphenbox=\box31
 \UL@skip=\skip51
@@ -310,15 +280,14 @@ Package color Info: Driver file: pdftex.def on input line 130.
 \UL@pe=\count116
 \UL@pixel=\dimen131
 \ULC@box=\box32
-Package: ulem 2011/03/18
+Package: ulem 2012/05/18
 \ULdepth=\dimen132
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-)
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\main_tri
-als.aux)
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (main_trials.aux)
+\openout1 = `main_trials.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
@@ -332,7 +301,7 @@ LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 
-(C:\Users\agoswami\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count117
 \scratchdimen=\dimen133
@@ -345,13 +314,9 @@ LaTeX Font Info:    ... okay on input line 23.
 \MPnumerator=\count121
 \makeMPintoPDFobject=\count122
 \everyMPtoPDFconversion=\toks38
-)
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\ragged2e
-.sty
+) (ragged2e.sty
 Package: ragged2e 2003/03/25 v2.04 ragged2e Package (MS)
-
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\everysel
-.sty
+ (everysel.sty
 Package: everysel 1999/06/08 v1.03 EverySelectfont Package (MS)
 LaTeX Info: Redefining \selectfont on input line 125.
 )
@@ -371,34 +336,29 @@ LaTeX Info: Redefining \selectfont on input line 125.
 \JustifyingParindent=\skip65
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 98.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 98.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 98.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 Overfull \hbox (1.16821pt too wide) in paragraph at lines 100--108
 \ninept of un-mod-eled hard-ware with het-ero-ge-neous power lev-els fur-
  []
 
-
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\intro.te
-x
+(intro.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1{C:/Users/agoswami/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-])
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\related.
-tex
+]) (related.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
  []
@@ -421,64 +381,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-)
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\gmm.tex
-[3]
+) (gmm.tex [3]
 Package epstopdf Info: Source file: <Figs4Paper/NewGaussian/distr7.eps>
-(epstopdf)                    date: 2011-06-15 23:18:48
+(epstopdf)                    date: 2017-05-15 16:15:48
 (epstopdf)                    size: 3485669 bytes
-(epstopdf)             Output file: <Figs4Paper/NewGaussian/distr7-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2011-06-17 14:52:39
+(epstopdf)             Output file: <Figs4Paper/NewGaussian/distr7-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-06-03 14:21:21
 (epstopdf)                    size: 15861 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/NewGaussian/dist
-r7-eps-converted-to.pdf Figs4Paper/NewGaussian/distr7.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/NewGaussian/distr7-eps-converted-to.pdf Figs4Paper/NewGau
+ssian/distr7.eps>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
+ <Figs4Paper/NewGaussian/distr7-eps-converted-to.pdf, id=19, 421.575pt x 317.185pt>
+File: Figs4Paper/NewGaussian/distr7-eps-converted-to.pdf Graphic file (type pdf)
 
-<Figs4Paper/NewGaussian/distr7-eps-converted-to.pdf, id=19, 421.575pt x 317.185
-pt>
-File: Figs4Paper/NewGaussian/distr7-eps-converted-to.pdf Graphic file (type pdf
-)
- <use Figs4Paper/NewGaussian/distr7-eps-converted-to.pdf>
-Package pdftex.def Info: Figs4Paper/NewGaussian/distr7-eps-converted-to.pdf use
-d on input line 23.
+<use Figs4Paper/NewGaussian/distr7-eps-converted-to.pdf>
+Package pdftex.def Info: Figs4Paper/NewGaussian/distr7-eps-converted-to.pdf used on input line 23.
 (pdftex.def)             Requested size: 115.62791pt x 90.33574pt.
 Package epstopdf Info: Source file: <Figs4Paper/NewGaussian/qqplot2.eps>
-(epstopdf)                    date: 2011-06-15 22:52:10
+(epstopdf)                    date: 2017-05-15 16:15:48
 (epstopdf)                    size: 60740 bytes
-(epstopdf)             Output file: <Figs4Paper/NewGaussian/qqplot2-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2011-06-17 14:52:39
+(epstopdf)             Output file: <Figs4Paper/NewGaussian/qqplot2-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 16:15:48
 (epstopdf)                    size: 17870 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/NewGaussian/qqpl
-ot2-eps-converted-to.pdf Figs4Paper/NewGaussian/qqplot2.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/NewGaussian/qqplot2-eps-converted-to.pdf Figs4Paper/NewGa
+ussian/qqplot2.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figs4Paper/NewGaussian/qqplot2-eps-converted-to.pdf, id=20, 420.57124pt x 316.
-18124pt>
-File: Figs4Paper/NewGaussian/qqplot2-eps-converted-to.pdf Graphic file (type pd
-f)
- <use Figs4Paper/NewGaussian/qqplot2-eps-converted-to.pdf>
-Package pdftex.def Info: Figs4Paper/NewGaussian/qqplot2-eps-converted-to.pdf us
-ed on input line 24.
+<Figs4Paper/NewGaussian/qqplot2-eps-converted-to.pdf, id=20, 420.57124pt x 316.18124pt>
+File: Figs4Paper/NewGaussian/qqplot2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figs4Paper/NewGaussian/qqplot2-eps-converted-to.pdf>
+Package pdftex.def Info: Figs4Paper/NewGaussian/qqplot2-eps-converted-to.pdf used on input line 24.
 (pdftex.def)             Requested size: 115.62857pt x 90.33452pt.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
 Package epstopdf Info: Source file: <Figs4Paper/GMM/gmm4.eps>
-(epstopdf)                    date: 2011-06-14 11:00:04
-(epstopdf)                    size: 96959 bytes
+(epstopdf)                    date: 2017-05-15 16:15:47
+(epstopdf)                    size: 99097 bytes
 (epstopdf)             Output file: <Figs4Paper/GMM/gmm4-eps-converted-to.pdf>
-(epstopdf)                    date: 2011-06-17 14:52:40
+(epstopdf)                    date: 2017-05-15 16:15:47
 (epstopdf)                    size: 27682 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/GMM/gmm4-eps-con
-verted-to.pdf Figs4Paper/GMM/gmm4.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/GMM/gmm4-eps-converted-to.pdf Figs4Paper/GMM/gmm4.eps>
 (epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -486,27 +435,20 @@ Package epstopdf Info: Output file is already uptodate.
 File: Figs4Paper/GMM/gmm4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figs4Paper/GMM/gmm4-eps-converted-to.pdf>
-Package pdftex.def Info: Figs4Paper/GMM/gmm4-eps-converted-to.pdf used on input
- line 70.
+Package pdftex.def Info: Figs4Paper/GMM/gmm4-eps-converted-to.pdf used on input line 70.
 (pdftex.def)             Requested size: 138.28001pt x 86.72377pt.
- [4 <C:/Users/agoswami/Dropbox/Localization-PaperWriteup/1.CoNEXT4Shepherd/Figs
-4Paper/NewGaussian/distr7-eps-converted-to.pdf> <C:/Users/agoswami/Dropbox/Loca
-lization-PaperWriteup/1.CoNEXT4Shepherd/Figs4Paper/NewGaussian/qqplot2-eps-conv
-erted-to.pdf> <C:/Users/agoswami/Dropbox/Localization-PaperWriteup/1.CoNEXT4She
-pherd/Figs4Paper/GMM/gmm4-eps-converted-to.pdf>]
+ [4 <./Figs4Paper/NewGaussian/distr7-eps-converted-to.pdf> <./Figs4Paper/NewGaussian/qqplot2-eps-converted-to.pdf> <./Fi
+gs4Paper/GMM/gmm4-eps-converted-to.pdf>]
 Overfull \hbox (5.19258pt too wide) in paragraph at lines 110--113
-\OT1/cmr/m/n/10 This lends sim-plic-ity to our model since the term $\OML/cmm/m
-/it/10 p\OT1/cmr/m/n/10 (\OT1/cmr/bx/n/10 s\OMS/cmsy/m/n/10 j\OT1/cmr/bx/n/10 x
-\OML/cmm/m/it/10 ; \OT1/cmr/bx/n/10 z\OT1/cmr/m/n/10 )$
+\OT1/cmr/m/n/10 This lends sim-plic-ity to our model since the term $\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OT1/cmr/bx/n/10
+ s\OMS/cmsy/m/n/10 j\OT1/cmr/bx/n/10 x\OML/cmm/m/it/10 ; \OT1/cmr/bx/n/10 z\OT1/cmr/m/n/10 )$
  []
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 121.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 121.
-)
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\em-algor
-ithm.tex
+) (em-algorithm.tex
 Underfull \hbox (badness 10000) in paragraph at lines 13--19
 
  []
@@ -517,28 +459,21 @@ Overfull \hbox (1.5298pt too wide) in paragraph at lines 25--25
  []
 
 [5]
-Package epstopdf Info: Source file: <Figs4Paper/CEWIT/GMM-LogLikelihood/LogLike
-lihood.eps>
-(epstopdf)                    date: 2011-06-10 14:17:10
-(epstopdf)                    size: 35393 bytes
-(epstopdf)             Output file: <Figs4Paper/CEWIT/GMM-LogLikelihood/LogLike
-lihood-eps-converted-to.pdf>
-(epstopdf)                    date: 2011-06-17 14:52:40
+Package epstopdf Info: Source file: <Figs4Paper/CEWIT/GMM-LogLikelihood/LogLikelihood.eps>
+(epstopdf)                    date: 2017-05-15 16:15:47
+(epstopdf)                    size: 37402 bytes
+(epstopdf)             Output file: <Figs4Paper/CEWIT/GMM-LogLikelihood/LogLikelihood-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 16:15:47
 (epstopdf)                    size: 32375 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CEWIT/GMM-LogLik
-elihood/LogLikelihood-eps-converted-to.pdf Figs4Paper/CEWIT/GMM-LogLikelihood/L
-ogLikelihood.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CEWIT/GMM-LogLikelihood/LogLikelihood-eps-converted-to.pd
+f Figs4Paper/CEWIT/GMM-LogLikelihood/LogLikelihood.eps>
 (epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figs4Paper/CEWIT/GMM-LogLikelihood/LogLikelihood-eps-converted-to.pdf, id=51, 
-361.35pt x 252.945pt>
-File: Figs4Paper/CEWIT/GMM-LogLikelihood/LogLikelihood-eps-converted-to.pdf Gra
-phic file (type pdf)
+ <Figs4Paper/CEWIT/GMM-LogLikelihood/LogLikelihood-eps-converted-to.pdf, id=51, 361.35pt x 252.945pt>
+File: Figs4Paper/CEWIT/GMM-LogLikelihood/LogLikelihood-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figs4Paper/CEWIT/GMM-LogLikelihood/LogLikelihood-eps-converted-to.pdf>
-Package pdftex.def Info: Figs4Paper/CEWIT/GMM-LogLikelihood/LogLikelihood-eps-c
-onverted-to.pdf used on input line 55.
+Package pdftex.def Info: Figs4Paper/CEWIT/GMM-LogLikelihood/LogLikelihood-eps-converted-to.pdf used on input line 55.
 (pdftex.def)             Requested size: 180.67456pt x 108.40527pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 67--69
@@ -551,207 +486,157 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--141
  []
 
 Package epstopdf Info: Source file: <Figs4Paper/CEWIT/CEWIT-Map7.eps>
-(epstopdf)                    date: 2011-06-13 19:10:34
-(epstopdf)                    size: 2104965 bytes
-(epstopdf)             Output file: <Figs4Paper/CEWIT/CEWIT-Map7-eps-converted-
-to.pdf>
-(epstopdf)                    date: 2011-06-17 14:52:42
+(epstopdf)                    date: 2017-05-15 16:15:47
+(epstopdf)                    size: 2134380 bytes
+(epstopdf)             Output file: <Figs4Paper/CEWIT/CEWIT-Map7-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-06-03 14:21:21
 (epstopdf)                    size: 279057 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CEWIT/CEWIT-Map7
--eps-converted-to.pdf Figs4Paper/CEWIT/CEWIT-Map7.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CEWIT/CEWIT-Map7-eps-converted-to.pdf Figs4Paper/CEWIT/CE
+WIT-Map7.eps>
 (epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figs4Paper/CEWIT/CEWIT-Map7-eps-converted-to.pdf, id=52, 723.70375pt x 896.348
-75pt>
+<Figs4Paper/CEWIT/CEWIT-Map7-eps-converted-to.pdf, id=52, 723.70375pt x 896.34875pt>
 File: Figs4Paper/CEWIT/CEWIT-Map7-eps-converted-to.pdf Graphic file (type pdf)
- <use Figs4Paper/CEWIT/CEWIT-Map7-eps-converted-to.pdf>
-Package pdftex.def Info: Figs4Paper/CEWIT/CEWIT-Map7-eps-converted-to.pdf used 
-on input line 166.
+
+<use Figs4Paper/CEWIT/CEWIT-Map7-eps-converted-to.pdf>
+Package pdftex.def Info: Figs4Paper/CEWIT/CEWIT-Map7-eps-converted-to.pdf used on input line 166.
 (pdftex.def)             Requested size: 105.02821pt x 130.08621pt.
 Package epstopdf Info: Source file: <Figs4Paper/CSD/CSD-Map4.eps>
-(epstopdf)                    date: 2011-06-13 19:54:06
-(epstopdf)                    size: 3970605 bytes
-(epstopdf)             Output file: <Figs4Paper/CSD/CSD-Map4-eps-converted-to.p
-df>
-(epstopdf)                    date: 2011-06-17 14:52:46
+(epstopdf)                    date: 2017-05-15 16:15:47
+(epstopdf)                    size: 4025365 bytes
+(epstopdf)             Output file: <Figs4Paper/CSD/CSD-Map4-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 16:15:47
 (epstopdf)                    size: 579041 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CSD/CSD-Map4-eps
--converted-to.pdf Figs4Paper/CSD/CSD-Map4.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CSD/CSD-Map4-eps-converted-to.pdf Figs4Paper/CSD/CSD-Map4
+.eps>
 (epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figs4Paper/CSD/CSD-Map4-eps-converted-to.pdf, id=53, 2169.10374pt x 1590.94376
-pt>
+<Figs4Paper/CSD/CSD-Map4-eps-converted-to.pdf, id=53, 2169.10374pt x 1590.94376pt>
 File: Figs4Paper/CSD/CSD-Map4-eps-converted-to.pdf Graphic file (type pdf)
- <use Figs4Paper/CSD/CSD-Map4-eps-converted-to.pdf>
-Package pdftex.def Info: Figs4Paper/CSD/CSD-Map4-eps-converted-to.pdf used on i
-nput line 167.
+
+<use Figs4Paper/CSD/CSD-Map4-eps-converted-to.pdf>
+Package pdftex.def Info: Figs4Paper/CSD/CSD-Map4-eps-converted-to.pdf used on input line 167.
 (pdftex.def)             Requested size: 144.54pt x 106.01248pt.
-)
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\exp-meth
-ods.tex [6 <C:/Users/agoswami/Dropbox/Localization-PaperWriteup/1.CoNEXT4Shephe
-rd/Figs4Paper/CEWIT/GMM-LogLikelihood/LogLikelihood-eps-converted-to.pdf>]
+) (exp-methods.tex [6 <./Figs4Paper/CEWIT/GMM-LogLikelihood/LogLikelihood-eps-converted-to.pdf>]
 Underfull \vbox (badness 1062) has occurred while \output is active []
 
- [7 <C:/Users/agoswami/Dropbox/Localization-PaperWriteup/1.CoNEXT4Shepherd/Figs
-4Paper/CEWIT/CEWIT-Map7-eps-converted-to.pdf> <C:/Users/agoswami/Dropbox/Locali
-zation-PaperWriteup/1.CoNEXT4Shepherd/Figs4Paper/CSD/CSD-Map4-eps-converted-to.
-pdf>])
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\evaluati
-on.tex
-Package epstopdf Info: Source file: <Figs4Paper/CEWIT/PowerPlot4Paper_CEWIT/Pwr
-LvlPlot_cewit.eps>
-(epstopdf)                    date: 2011-10-19 09:30:51
-(epstopdf)                    size: 18454 bytes
-(epstopdf)             Output file: <Figs4Paper/CEWIT/PowerPlot4Paper_CEWIT/Pwr
-LvlPlot_cewit-eps-converted-to.pdf>
-(epstopdf)                    date: 2011-10-19 09:30:59
+ [7 <./Figs4Paper/CEWIT/CEWIT-Map7-eps-converted-to.pdf> <./Figs4Paper/CSD/CSD-Map4-eps-converted-to.pdf>]) (evaluation.
+tex
+Package epstopdf Info: Source file: <Figs4Paper/CEWIT/PowerPlot4Paper_CEWIT/PwrLvlPlot_cewit.eps>
+(epstopdf)                    date: 2017-05-15 16:15:47
+(epstopdf)                    size: 19187 bytes
+(epstopdf)             Output file: <Figs4Paper/CEWIT/PowerPlot4Paper_CEWIT/PwrLvlPlot_cewit-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 16:15:47
 (epstopdf)                    size: 8985 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CEWIT/PowerPlot4
-Paper_CEWIT/PwrLvlPlot_cewit-eps-converted-to.pdf Figs4Paper/CEWIT/PowerPlot4Pa
-per_CEWIT/PwrLvlPlot_cewit.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CEWIT/PowerPlot4Paper_CEWIT/PwrLvlPlot_cewit-eps-converte
+d-to.pdf Figs4Paper/CEWIT/PowerPlot4Paper_CEWIT/PwrLvlPlot_cewit.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figs4Paper/CEWIT/PowerPlot4Paper_CEWIT/PwrLvlPlot_cewit-eps-converted-to.pdf, 
-id=75, 361.35pt x 252.945pt>
-File: Figs4Paper/CEWIT/PowerPlot4Paper_CEWIT/PwrLvlPlot_cewit-eps-converted-to.
-pdf Graphic file (type pdf)
+<Figs4Paper/CEWIT/PowerPlot4Paper_CEWIT/PwrLvlPlot_cewit-eps-converted-to.pdf, id=75, 361.35pt x 252.945pt>
+File: Figs4Paper/CEWIT/PowerPlot4Paper_CEWIT/PwrLvlPlot_cewit-eps-converted-to.pdf Graphic file (type pdf)
 
-<use Figs4Paper/CEWIT/PowerPlot4Paper_CEWIT/PwrLvlPlot_cewit-eps-converted-to.p
-df>
-Package pdftex.def Info: Figs4Paper/CEWIT/PowerPlot4Paper_CEWIT/PwrLvlPlot_cewi
-t-eps-converted-to.pdf used on input line 36.
+<use Figs4Paper/CEWIT/PowerPlot4Paper_CEWIT/PwrLvlPlot_cewit-eps-converted-to.pdf>
+Package pdftex.def Info: Figs4Paper/CEWIT/PowerPlot4Paper_CEWIT/PwrLvlPlot_cewit-eps-converted-to.pdf used on input line
+ 36.
 (pdftex.def)             Requested size: 115.62885pt x 90.33838pt.
-Package epstopdf Info: Source file: <Figs4Paper/CSD/PowerPlot4Paper_CSD/PwrLvlP
-lot_csd.eps>
-(epstopdf)                    date: 2011-10-19 09:04:15
-(epstopdf)                    size: 18814 bytes
-(epstopdf)             Output file: <Figs4Paper/CSD/PowerPlot4Paper_CSD/PwrLvlP
-lot_csd-eps-converted-to.pdf>
-(epstopdf)                    date: 2011-10-19 09:12:13
+Package epstopdf Info: Source file: <Figs4Paper/CSD/PowerPlot4Paper_CSD/PwrLvlPlot_csd.eps>
+(epstopdf)                    date: 2017-05-15 16:15:47
+(epstopdf)                    size: 19591 bytes
+(epstopdf)             Output file: <Figs4Paper/CSD/PowerPlot4Paper_CSD/PwrLvlPlot_csd-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 16:15:47
 (epstopdf)                    size: 9316 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CSD/PowerPlot4Pa
-per_CSD/PwrLvlPlot_csd-eps-converted-to.pdf Figs4Paper/CSD/PowerPlot4Paper_CSD/
-PwrLvlPlot_csd.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CSD/PowerPlot4Paper_CSD/PwrLvlPlot_csd-eps-converted-to.p
+df Figs4Paper/CSD/PowerPlot4Paper_CSD/PwrLvlPlot_csd.eps>
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figs4Paper/CSD/PowerPlot4Paper_CSD/PwrLvlPlot_csd-eps-converted-to.pdf, id=76,
- 361.35pt x 252.945pt>
-File: Figs4Paper/CSD/PowerPlot4Paper_CSD/PwrLvlPlot_csd-eps-converted-to.pdf Gr
-aphic file (type pdf)
+<Figs4Paper/CSD/PowerPlot4Paper_CSD/PwrLvlPlot_csd-eps-converted-to.pdf, id=76, 361.35pt x 252.945pt>
+File: Figs4Paper/CSD/PowerPlot4Paper_CSD/PwrLvlPlot_csd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figs4Paper/CSD/PowerPlot4Paper_CSD/PwrLvlPlot_csd-eps-converted-to.pdf>
-Package pdftex.def Info: Figs4Paper/CSD/PowerPlot4Paper_CSD/PwrLvlPlot_csd-eps-
-converted-to.pdf used on input line 37.
+Package pdftex.def Info: Figs4Paper/CSD/PowerPlot4Paper_CSD/PwrLvlPlot_csd-eps-converted-to.pdf used on input line 37.
 (pdftex.def)             Requested size: 115.62885pt x 90.33838pt.
-Package epstopdf Info: Source file: <Figs4Paper/CEWIT/LearningSize4Paper_CEWIT/
-LearningSetSize_cewit.eps>
-(epstopdf)                    date: 2011-10-19 09:05:22
-(epstopdf)                    size: 18466 bytes
-(epstopdf)             Output file: <Figs4Paper/CEWIT/LearningSize4Paper_CEWIT/
-LearningSetSize_cewit-eps-converted-to.pdf>
-(epstopdf)                    date: 2011-10-19 09:12:14
+Package epstopdf Info: Source file: <Figs4Paper/CEWIT/LearningSize4Paper_CEWIT/LearningSetSize_cewit.eps>
+(epstopdf)                    date: 2017-05-15 16:15:47
+(epstopdf)                    size: 19201 bytes
+(epstopdf)             Output file: <Figs4Paper/CEWIT/LearningSize4Paper_CEWIT/LearningSetSize_cewit-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-05-15 16:15:47
 (epstopdf)                    size: 8909 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CEWIT/LearningSi
-ze4Paper_CEWIT/LearningSetSize_cewit-eps-converted-to.pdf Figs4Paper/CEWIT/Lear
-ningSize4Paper_CEWIT/LearningSetSize_cewit.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CEWIT/LearningSize4Paper_CEWIT/LearningSetSize_cewit-eps-
+converted-to.pdf Figs4Paper/CEWIT/LearningSize4Paper_CEWIT/LearningSetSize_cewit.eps>
 (epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figs4Paper/CEWIT/LearningSize4Paper_CEWIT/LearningSetSize_cewit-eps-converted-
-to.pdf, id=77, 361.35pt x 252.945pt>
-File: Figs4Paper/CEWIT/LearningSize4Paper_CEWIT/LearningSetSize_cewit-eps-conve
-rted-to.pdf Graphic file (type pdf)
+<Figs4Paper/CEWIT/LearningSize4Paper_CEWIT/LearningSetSize_cewit-eps-converted-to.pdf, id=77, 361.35pt x 252.945pt>
+File: Figs4Paper/CEWIT/LearningSize4Paper_CEWIT/LearningSetSize_cewit-eps-converted-to.pdf Graphic file (type pdf)
 
-<use Figs4Paper/CEWIT/LearningSize4Paper_CEWIT/LearningSetSize_cewit-eps-conver
-ted-to.pdf>
-Package pdftex.def Info: Figs4Paper/CEWIT/LearningSize4Paper_CEWIT/LearningSetS
-ize_cewit-eps-converted-to.pdf used on input line 62.
+<use Figs4Paper/CEWIT/LearningSize4Paper_CEWIT/LearningSetSize_cewit-eps-converted-to.pdf>
+Package pdftex.def Info: Figs4Paper/CEWIT/LearningSize4Paper_CEWIT/LearningSetSize_cewit-eps-converted-to.pdf used on in
+put line 62.
 (pdftex.def)             Requested size: 115.62885pt x 90.33838pt.
-Package epstopdf Info: Source file: <Figs4Paper/CSD/LearningSize4Paper_CSD/Lear
-ningSetSize_csd.eps>
-(epstopdf)                    date: 2011-10-19 09:06:06
-(epstopdf)                    size: 18437 bytes
-(epstopdf)             Output file: <Figs4Paper/CSD/LearningSize4Paper_CSD/Lear
-ningSetSize_csd-eps-converted-to.pdf>
-(epstopdf)                    date: 2011-10-19 09:12:14
+Package epstopdf Info: Source file: <Figs4Paper/CSD/LearningSize4Paper_CSD/LearningSetSize_csd.eps>
+(epstopdf)                    date: 2017-05-15 16:15:47
+(epstopdf)                    size: 19170 bytes
+(epstopdf)             Output file: <Figs4Paper/CSD/LearningSize4Paper_CSD/LearningSetSize_csd-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 16:15:47
 (epstopdf)                    size: 8862 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CSD/LearningSize
-4Paper_CSD/LearningSetSize_csd-eps-converted-to.pdf Figs4Paper/CSD/LearningSize
-4Paper_CSD/LearningSetSize_csd.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CSD/LearningSize4Paper_CSD/LearningSetSize_csd-eps-conver
+ted-to.pdf Figs4Paper/CSD/LearningSize4Paper_CSD/LearningSetSize_csd.eps>
 (epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figs4Paper/CSD/LearningSize4Paper_CSD/LearningSetSize_csd-eps-converted-to.pdf
-, id=78, 361.35pt x 252.945pt>
-File: Figs4Paper/CSD/LearningSize4Paper_CSD/LearningSetSize_csd-eps-converted-t
-o.pdf Graphic file (type pdf)
+<Figs4Paper/CSD/LearningSize4Paper_CSD/LearningSetSize_csd-eps-converted-to.pdf, id=78, 361.35pt x 252.945pt>
+File: Figs4Paper/CSD/LearningSize4Paper_CSD/LearningSetSize_csd-eps-converted-to.pdf Graphic file (type pdf)
 
-<use Figs4Paper/CSD/LearningSize4Paper_CSD/LearningSetSize_csd-eps-converted-to
-.pdf>
-Package pdftex.def Info: Figs4Paper/CSD/LearningSize4Paper_CSD/LearningSetSize_
-csd-eps-converted-to.pdf used on input line 63.
+<use Figs4Paper/CSD/LearningSize4Paper_CSD/LearningSetSize_csd-eps-converted-to.pdf>
+Package pdftex.def Info: Figs4Paper/CSD/LearningSize4Paper_CSD/LearningSetSize_csd-eps-converted-to.pdf used on input li
+ne 63.
 (pdftex.def)             Requested size: 115.62885pt x 90.33838pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <C:/Users/agoswami/Dropbox/Localization-PaperWriteup/1.CoNEXT4Shepherd/Figs4
-Paper/CEWIT/PowerPlot4Paper_CEWIT/PwrLvlPlot_cewit-eps-converted-to.pdf> <C:/Us
-ers/agoswami/Dropbox/Localization-PaperWriteup/1.CoNEXT4Shepherd/Figs4Paper/CSD
-/PowerPlot4Paper_CSD/PwrLvlPlot_csd-eps-converted-to.pdf>]
+[8 <./Figs4Paper/CEWIT/PowerPlot4Paper_CEWIT/PwrLvlPlot_cewit-eps-converted-to.pdf> <./Figs4Paper/CSD/PowerPlot4Paper_CS
+D/PwrLvlPlot_csd-eps-converted-to.pdf>]
 Overfull \hbox (8.09756pt too wide) in paragraph at lines 73--73
 []\secfnt WiGEM Ac-cu-racy With Het-ero-ge-neous De-
  []
 
-Package epstopdf Info: Source file: <Figs4Paper/CEWIT/Gem4Devices_CEWIT/4Device
-s_cewit.eps>
-(epstopdf)                    date: 2011-10-19 09:07:17
-(epstopdf)                    size: 20904 bytes
-(epstopdf)             Output file: <Figs4Paper/CEWIT/Gem4Devices_CEWIT/4Device
-s_cewit-eps-converted-to.pdf>
-(epstopdf)                    date: 2011-10-19 09:12:14
+Package epstopdf Info: Source file: <Figs4Paper/CEWIT/Gem4Devices_CEWIT/4Devices_cewit.eps>
+(epstopdf)                    date: 2017-05-15 16:15:47
+(epstopdf)                    size: 21855 bytes
+(epstopdf)             Output file: <Figs4Paper/CEWIT/Gem4Devices_CEWIT/4Devices_cewit-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 16:15:47
 (epstopdf)                    size: 11706 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CEWIT/Gem4Device
-s_CEWIT/4Devices_cewit-eps-converted-to.pdf Figs4Paper/CEWIT/Gem4Devices_CEWIT/
-4Devices_cewit.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CEWIT/Gem4Devices_CEWIT/4Devices_cewit-eps-converted-to.p
+df Figs4Paper/CEWIT/Gem4Devices_CEWIT/4Devices_cewit.eps>
 (epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figs4Paper/CEWIT/Gem4Devices_CEWIT/4Devices_cewit-eps-converted-to.pdf, id=93,
- 361.35pt x 252.945pt>
-File: Figs4Paper/CEWIT/Gem4Devices_CEWIT/4Devices_cewit-eps-converted-to.pdf Gr
-aphic file (type pdf)
+<Figs4Paper/CEWIT/Gem4Devices_CEWIT/4Devices_cewit-eps-converted-to.pdf, id=93, 361.35pt x 252.945pt>
+File: Figs4Paper/CEWIT/Gem4Devices_CEWIT/4Devices_cewit-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figs4Paper/CEWIT/Gem4Devices_CEWIT/4Devices_cewit-eps-converted-to.pdf>
-Package pdftex.def Info: Figs4Paper/CEWIT/Gem4Devices_CEWIT/4Devices_cewit-eps-
-converted-to.pdf used on input line 79.
+Package pdftex.def Info: Figs4Paper/CEWIT/Gem4Devices_CEWIT/4Devices_cewit-eps-converted-to.pdf used on input line 79.
 (pdftex.def)             Requested size: 115.62885pt x 90.33838pt.
-Package epstopdf Info: Source file: <Figs4Paper/CSD/Gem4Devices_CSD/4Devices_cs
-d.eps>
-(epstopdf)                    date: 2011-10-19 09:16:13
-(epstopdf)                    size: 19756 bytes
-(epstopdf)             Output file: <Figs4Paper/CSD/Gem4Devices_CSD/4Devices_cs
-d-eps-converted-to.pdf>
-(epstopdf)                    date: 2011-10-19 09:16:19
+Package epstopdf Info: Source file: <Figs4Paper/CSD/Gem4Devices_CSD/4Devices_csd.eps>
+(epstopdf)                    date: 2017-05-15 16:15:47
+(epstopdf)                    size: 20601 bytes
+(epstopdf)             Output file: <Figs4Paper/CSD/Gem4Devices_CSD/4Devices_csd-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 16:15:47
 (epstopdf)                    size: 10261 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CSD/Gem4Devices_
-CSD/4Devices_csd-eps-converted-to.pdf Figs4Paper/CSD/Gem4Devices_CSD/4Devices_c
-sd.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CSD/Gem4Devices_CSD/4Devices_csd-eps-converted-to.pdf Fig
+s4Paper/CSD/Gem4Devices_CSD/4Devices_csd.eps>
 (epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figs4Paper/CSD/Gem4Devices_CSD/4Devices_csd-eps-converted-to.pdf, id=94, 361.3
-5pt x 252.945pt>
-File: Figs4Paper/CSD/Gem4Devices_CSD/4Devices_csd-eps-converted-to.pdf Graphic 
-file (type pdf)
+<Figs4Paper/CSD/Gem4Devices_CSD/4Devices_csd-eps-converted-to.pdf, id=94, 361.35pt x 252.945pt>
+File: Figs4Paper/CSD/Gem4Devices_CSD/4Devices_csd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figs4Paper/CSD/Gem4Devices_CSD/4Devices_csd-eps-converted-to.pdf>
-Package pdftex.def Info: Figs4Paper/CSD/Gem4Devices_CSD/4Devices_csd-eps-conver
-ted-to.pdf used on input line 80.
+Package pdftex.def Info: Figs4Paper/CSD/Gem4Devices_CSD/4Devices_csd-eps-converted-to.pdf used on input line 80.
 (pdftex.def)             Requested size: 115.62885pt x 90.33838pt.
 
 Overfull \hbox (12.85767pt too wide) in paragraph at lines 78--82
@@ -761,173 +646,141 @@ Overfull \hbox (12.85767pt too wide) in paragraph at lines 78--82
 
 Underfull \vbox (badness 1215) has occurred while \output is active []
 
-Package epstopdf Info: Source file: <Figs4Paper/CEWIT/Baseline4Paper_CEWIT/Base
-lineComparisonsMedianError_cewit.eps>
-(epstopdf)                    date: 2011-10-19 09:33:16
-(epstopdf)                    size: 19047 bytes
-(epstopdf)             Output file: <Figs4Paper/CEWIT/Baseline4Paper_CEWIT/Base
-lineComparisonsMedianError_cewit-eps-converted-to.pdf>
-(epstopdf)                    date: 2011-10-19 09:33:23
+Package epstopdf Info: Source file: <Figs4Paper/CEWIT/Baseline4Paper_CEWIT/BaselineComparisonsMedianError_cewit.eps>
+(epstopdf)                    date: 2017-05-15 16:15:46
+(epstopdf)                    size: 19804 bytes
+(epstopdf)             Output file: <Figs4Paper/CEWIT/Baseline4Paper_CEWIT/BaselineComparisonsMedianError_cewit-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-05-15 16:15:46
 (epstopdf)                    size: 17070 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CEWIT/Baseline4P
-aper_CEWIT/BaselineComparisonsMedianError_cewit-eps-converted-to.pdf Figs4Paper
-/CEWIT/Baseline4Paper_CEWIT/BaselineComparisonsMedianError_cewit.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CEWIT/Baseline4Paper_CEWIT/BaselineComparisonsMedianError
+_cewit-eps-converted-to.pdf Figs4Paper/CEWIT/Baseline4Paper_CEWIT/BaselineComparisonsMedianError_cewit.eps>
 (epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figs4Paper/CEWIT/Baseline4Paper_CEWIT/BaselineComparisonsMedianError_cewit-eps
--converted-to.pdf, id=95, 361.35pt x 252.945pt>
-File: Figs4Paper/CEWIT/Baseline4Paper_CEWIT/BaselineComparisonsMedianError_cewi
-t-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figs4Paper/CEWIT/Baseline4Paper_CEWIT/BaselineComparisonsMedianError_cewit
--eps-converted-to.pdf>
-Package pdftex.def Info: Figs4Paper/CEWIT/Baseline4Paper_CEWIT/BaselineComparis
-onsMedianError_cewit-eps-converted-to.pdf used on input line 102.
+<Figs4Paper/CEWIT/Baseline4Paper_CEWIT/BaselineComparisonsMedianError_cewit-eps-converted-to.pdf, id=95, 361.35pt x 252.
+945pt>
+File: Figs4Paper/CEWIT/Baseline4Paper_CEWIT/BaselineComparisonsMedianError_cewit-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use Figs4Paper/CEWIT/Baseline4Paper_CEWIT/BaselineComparisonsMedianError_cewit-eps-converted-to.pdf>
+Package pdftex.def Info: Figs4Paper/CEWIT/Baseline4Paper_CEWIT/BaselineComparisonsMedianError_cewit-eps-converted-to.pdf
+ used on input line 102.
 (pdftex.def)             Requested size: 115.62885pt x 90.33838pt.
-Package epstopdf Info: Source file: <Figs4Paper/CSD/Baseline4Paper_CSD/Baseline
-ComparisonsMedianError_csd.eps>
-(epstopdf)                    date: 2011-10-19 09:34:27
-(epstopdf)                    size: 19072 bytes
-(epstopdf)             Output file: <Figs4Paper/CSD/Baseline4Paper_CSD/Baseline
-ComparisonsMedianError_csd-eps-converted-to.pdf>
-(epstopdf)                    date: 2011-10-19 09:34:37
+Package epstopdf Info: Source file: <Figs4Paper/CSD/Baseline4Paper_CSD/BaselineComparisonsMedianError_csd.eps>
+(epstopdf)                    date: 2017-05-15 16:15:47
+(epstopdf)                    size: 19837 bytes
+(epstopdf)             Output file: <Figs4Paper/CSD/Baseline4Paper_CSD/BaselineComparisonsMedianError_csd-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-05-15 16:15:47
 (epstopdf)                    size: 16894 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CSD/Baseline4Pap
-er_CSD/BaselineComparisonsMedianError_csd-eps-converted-to.pdf Figs4Paper/CSD/B
-aseline4Paper_CSD/BaselineComparisonsMedianError_csd.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CSD/Baseline4Paper_CSD/BaselineComparisonsMedianError_csd
+-eps-converted-to.pdf Figs4Paper/CSD/Baseline4Paper_CSD/BaselineComparisonsMedianError_csd.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figs4Paper/CSD/Baseline4Paper_CSD/BaselineComparisonsMedianError_csd-eps-conve
-rted-to.pdf, id=96, 361.35pt x 252.945pt>
-File: Figs4Paper/CSD/Baseline4Paper_CSD/BaselineComparisonsMedianError_csd-eps-
-converted-to.pdf Graphic file (type pdf)
-
-<use Figs4Paper/CSD/Baseline4Paper_CSD/BaselineComparisonsMedianError_csd-eps-c
-onverted-to.pdf>
-Package pdftex.def Info: Figs4Paper/CSD/Baseline4Paper_CSD/BaselineComparisonsM
-edianError_csd-eps-converted-to.pdf used on input line 104.
+<Figs4Paper/CSD/Baseline4Paper_CSD/BaselineComparisonsMedianError_csd-eps-converted-to.pdf, id=96, 361.35pt x 252.945pt>
+File: Figs4Paper/CSD/Baseline4Paper_CSD/BaselineComparisonsMedianError_csd-eps-converted-to.pdf Graphic file (type pdf)
+<use Figs4Paper/CSD/Baseline4Paper_CSD/BaselineComparisonsMedianError_csd-eps-converted-to.pdf>
+Package pdftex.def Info: Figs4Paper/CSD/Baseline4Paper_CSD/BaselineComparisonsMedianError_csd-eps-converted-to.pdf used 
+on input line 104.
 (pdftex.def)             Requested size: 115.62885pt x 90.33838pt.
-Package epstopdf Info: Source file: <Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT
-/HRComparisonsMedianError_Probabilistic_cewit.eps>
-(epstopdf)                    date: 2011-10-19 09:39:27
-(epstopdf)                    size: 19915 bytes
-(epstopdf)             Output file: <Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT
-/HRComparisonsMedianError_Probabilistic_cewit-eps-converted-to.pdf>
-(epstopdf)                    date: 2011-10-19 09:39:34
+Package epstopdf Info: Source file: <Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_Probabilistic_c
+ewit.eps>
+(epstopdf)                    date: 2017-05-15 16:15:47
+(epstopdf)                    size: 20731 bytes
+(epstopdf)             Output file: <Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_Probabilistic_c
+ewit-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 16:15:47
 (epstopdf)                    size: 21134 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CEWIT/HRComparis
-ons4Paper_CEWIT/HRComparisonsMedianError_Probabilistic_cewit-eps-converted-to.p
-df Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_Probabil
-istic_cewit.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_
+Probabilistic_cewit-eps-converted-to.pdf Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_Probabilist
+ic_cewit.eps>
 (epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_Probabilis
-tic_cewit-eps-converted-to.pdf, id=97, 361.35pt x 252.945pt>
-File: Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_Proba
-bilistic_cewit-eps-converted-to.pdf Graphic file (type pdf)
+<Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_Probabilistic_cewit-eps-converted-to.pdf, id=97, 36
+1.35pt x 252.945pt>
+File: Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_Probabilistic_cewit-eps-converted-to.pdf Graph
+ic file (type pdf)
 
-<use Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_Probab
-ilistic_cewit-eps-converted-to.pdf>
-Package pdftex.def Info: Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRCompariso
-nsMedianError_Probabilistic_cewit-eps-converted-to.pdf used on input line 151.
+<use Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_Probabilistic_cewit-eps-converted-to.pdf>
+Package pdftex.def Info: Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_Probabilistic_cewit-eps-con
+verted-to.pdf used on input line 151.
 (pdftex.def)             Requested size: 115.62885pt x 90.33838pt.
-Package epstopdf Info: Source file: <Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT
-/HRComparisonsMedianError_RADAR_cewit.eps>
-(epstopdf)                    date: 2011-10-19 09:40:34
-(epstopdf)                    size: 19883 bytes
-(epstopdf)             Output file: <Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT
-/HRComparisonsMedianError_RADAR_cewit-eps-converted-to.pdf>
-(epstopdf)                    date: 2011-10-19 09:41:43
+Package epstopdf Info: Source file: <Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_RADAR_cewit.eps
+>
+(epstopdf)                    date: 2017-05-15 16:15:47
+(epstopdf)                    size: 20699 bytes
+(epstopdf)             Output file: <Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_RADAR_cewit-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 16:15:47
 (epstopdf)                    size: 20657 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CEWIT/HRComparis
-ons4Paper_CEWIT/HRComparisonsMedianError_RADAR_cewit-eps-converted-to.pdf Figs4
-Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_RADAR_cewit.eps>
-
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_
+RADAR_cewit-eps-converted-to.pdf Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_RADAR_cewit.eps>
 (epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_RADAR_cewi
-t-eps-converted-to.pdf, id=98, 361.35pt x 252.945pt>
-File: Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_RADAR
-_cewit-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_RADAR_
-cewit-eps-converted-to.pdf>
-Package pdftex.def Info: Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRCompariso
-nsMedianError_RADAR_cewit-eps-converted-to.pdf used on input line 153.
+<Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_RADAR_cewit-eps-converted-to.pdf, id=98, 361.35pt x
+ 252.945pt>
+File: Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_RADAR_cewit-eps-converted-to.pdf Graphic file 
+(type pdf)
+ <use Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_RADAR_cewit-eps-converted-to.pdf>
+Package pdftex.def Info: Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_RADAR_cewit-eps-converted-t
+o.pdf used on input line 153.
 (pdftex.def)             Requested size: 115.62885pt x 90.33838pt.
-Package epstopdf Info: Source file: <Figs4Paper/CSD/HRComparisons4Paper_CSD/HRC
-omparisonsMedianError_Probabilistic_csd.eps>
-(epstopdf)                    date: 2011-10-19 09:41:18
-(epstopdf)                    size: 19904 bytes
-(epstopdf)             Output file: <Figs4Paper/CSD/HRComparisons4Paper_CSD/HRC
-omparisonsMedianError_Probabilistic_csd-eps-converted-to.pdf>
-(epstopdf)                    date: 2011-10-19 09:41:43
+Package epstopdf Info: Source file: <Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_Probabilistic_csd.e
+ps>
+(epstopdf)                    date: 2017-05-15 16:15:47
+(epstopdf)                    size: 20720 bytes
+(epstopdf)             Output file: <Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_Probabilistic_csd-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 16:15:47
 (epstopdf)                    size: 17683 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CSD/HRComparison
-s4Paper_CSD/HRComparisonsMedianError_Probabilistic_csd-eps-converted-to.pdf Fig
-s4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_Probabilistic_csd.
-eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_Prob
+abilistic_csd-eps-converted-to.pdf Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_Probabilistic_csd.eps
+>
 (epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_Probabilistic_
-csd-eps-converted-to.pdf, id=99, 361.35pt x 252.945pt>
-File: Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_Probabili
-stic_csd-eps-converted-to.pdf Graphic file (type pdf)
+<Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_Probabilistic_csd-eps-converted-to.pdf, id=99, 361.35pt
+ x 252.945pt>
+File: Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_Probabilistic_csd-eps-converted-to.pdf Graphic fil
+e (type pdf)
 
-<use Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_Probabilis
-tic_csd-eps-converted-to.pdf>
-Package pdftex.def Info: Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMe
-dianError_Probabilistic_csd-eps-converted-to.pdf used on input line 160.
+<use Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_Probabilistic_csd-eps-converted-to.pdf>
+Package pdftex.def Info: Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_Probabilistic_csd-eps-converted
+-to.pdf used on input line 160.
 (pdftex.def)             Requested size: 115.62885pt x 90.33838pt.
-Package epstopdf Info: Source file: <Figs4Paper/CSD/HRComparisons4Paper_CSD/HRC
-omparisonsMedianError_RADAR_csd.eps>
-(epstopdf)                    date: 2011-10-19 09:41:20
-(epstopdf)                    size: 19872 bytes
-(epstopdf)             Output file: <Figs4Paper/CSD/HRComparisons4Paper_CSD/HRC
-omparisonsMedianError_RADAR_csd-eps-converted-to.pdf>
-(epstopdf)                    date: 2011-10-19 09:41:43
+Package epstopdf Info: Source file: <Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_RADAR_csd.eps>
+(epstopdf)                    date: 2017-05-15 16:15:47
+(epstopdf)                    size: 20688 bytes
+(epstopdf)             Output file: <Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_RADAR_csd-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2017-05-15 16:15:47
 (epstopdf)                    size: 16965 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CSD/HRComparison
-s4Paper_CSD/HRComparisonsMedianError_RADAR_csd-eps-converted-to.pdf Figs4Paper/
-CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_RADAR_csd.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_RADA
+R_csd-eps-converted-to.pdf Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_RADAR_csd.eps>
 (epstopdf)             \includegraphics on input line 162.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_RADAR_csd-eps-
-converted-to.pdf, id=100, 361.35pt x 252.945pt>
-File: Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_RADAR_csd
--eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_RADAR_csd-
-eps-converted-to.pdf>
-Package pdftex.def Info: Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMe
-dianError_RADAR_csd-eps-converted-to.pdf used on input line 162.
+<Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_RADAR_csd-eps-converted-to.pdf, id=100, 361.35pt x 252.
+945pt>
+File: Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_RADAR_csd-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_RADAR_csd-eps-converted-to.pdf>
+Package pdftex.def Info: Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_RADAR_csd-eps-converted-to.pdf 
+used on input line 162.
 (pdftex.def)             Requested size: 115.62885pt x 90.33838pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <C:/Users/agoswami/Dropbox/Localization-PaperWriteup/1.CoNEXT4Shepherd/Figs4
-Paper/CEWIT/LearningSize4Paper_CEWIT/LearningSetSize_cewit-eps-converted-to.pdf
-> <C:/Users/agoswami/Dropbox/Localization-PaperWriteup/1.CoNEXT4Shepherd/Figs4P
-aper/CSD/LearningSize4Paper_CSD/LearningSetSize_csd-eps-converted-to.pdf> <C:/U
-sers/agoswami/Dropbox/Localization-PaperWriteup/1.CoNEXT4Shepherd/Figs4Paper/CE
-WIT/Gem4Devices_CEWIT/4Devices_cewit-eps-converted-to.pdf> <C:/Users/agoswami/D
-ropbox/Localization-PaperWriteup/1.CoNEXT4Shepherd/Figs4Paper/CSD/Gem4Devices_C
-SD/4Devices_csd-eps-converted-to.pdf> <C:/Users/agoswami/Dropbox/Localization-P
-aperWriteup/1.CoNEXT4Shepherd/Figs4Paper/CEWIT/Baseline4Paper_CEWIT/BaselineCom
-parisonsMedianError_cewit-eps-converted-to.pdf> <C:/Users/agoswami/Dropbox/Loca
-lization-PaperWriteup/1.CoNEXT4Shepherd/Figs4Paper/CSD/Baseline4Paper_CSD/Basel
-ineComparisonsMedianError_csd-eps-converted-to.pdf> <C:/Users/agoswami/Dropbox/
-Localization-PaperWriteup/1.CoNEXT4Shepherd/Figs4Paper/CEWIT/HRComparisons4Pape
-r_CEWIT/HRComparisonsMedianError_Probabilistic_cewit-eps-converted-to.pdf> <C:/
-Users/agoswami/Dropbox/Localization-PaperWriteup/1.CoNEXT4Shepherd/Figs4Paper/C
-EWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_RADAR_cewit-eps-convert
+[9 <./Figs4Paper/CEWIT/LearningSize4Paper_CEWIT/LearningSetSize_cewit-eps-converted-to.pdf> <./Figs4Paper/CSD/LearningSi
+ze4Paper_CSD/LearningSetSize_csd-eps-converted-to.pdf> <./Figs4Paper/CEWIT/Gem4Devices_CEWIT/4Devices_cewit-eps-converte
+d-to.pdf> <./Figs4Paper/CSD/Gem4Devices_CSD/4Devices_csd-eps-converted-to.pdf> <./Figs4Paper/CEWIT/Baseline4Paper_CEWIT/
+BaselineComparisonsMedianError_cewit-eps-converted-to.pdf> <./Figs4Paper/CSD/Baseline4Paper_CSD/BaselineComparisonsMedia
+nError_csd-eps-converted-to.pdf> <./Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_Probabilistic_ce
+wit-eps-converted-to.pdf> <./Figs4Paper/CEWIT/HRComparisons4Paper_CEWIT/HRComparisonsMedianError_RADAR_cewit-eps-convert
 ed-to.pdf>]
 Overfull \hbox (3.09651pt too wide) in paragraph at lines 243--247
 []\OT1/cmr/m/n/10 On the other hand, Wi-GEM can-not match RADAR
@@ -944,41 +797,30 @@ Overfull \hbox (1.9726pt too wide) in paragraph at lines 249--255
  []
 
 Package epstopdf Info: Source file: <Figs4Paper/Mobility/MobilityResults.eps>
-(epstopdf)                    date: 2011-10-19 09:12:02
-(epstopdf)                    size: 19426 bytes
-(epstopdf)             Output file: <Figs4Paper/Mobility/MobilityResults-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2011-10-19 09:12:18
+(epstopdf)                    date: 2017-05-15 16:15:47
+(epstopdf)                    size: 20209 bytes
+(epstopdf)             Output file: <Figs4Paper/Mobility/MobilityResults-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-15 16:15:47
 (epstopdf)                    size: 10506 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/Mobility/Mobilit
-yResults-eps-converted-to.pdf Figs4Paper/Mobility/MobilityResults.eps>
+(epstopdf)             Command: <epstopdf --outfile=Figs4Paper/Mobility/MobilityResults-eps-converted-to.pdf Figs4Paper/
+Mobility/MobilityResults.eps>
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
+<Figs4Paper/Mobility/MobilityResults-eps-converted-to.pdf, id=144, 361.35pt x 252.945pt>
+File: Figs4Paper/Mobility/MobilityResults-eps-converted-to.pdf Graphic file (type pdf)
 
-<Figs4Paper/Mobility/MobilityResults-eps-converted-to.pdf, id=144, 361.35pt x 2
-52.945pt>
-File: Figs4Paper/Mobility/MobilityResults-eps-converted-to.pdf Graphic file (ty
-pe pdf)
- <use Figs4Paper/Mobility/MobilityResults-eps-converted-to.pdf>
-Package pdftex.def Info: Figs4Paper/Mobility/MobilityResults-eps-converted-to.p
-df used on input line 264.
+<use Figs4Paper/Mobility/MobilityResults-eps-converted-to.pdf>
+Package pdftex.def Info: Figs4Paper/Mobility/MobilityResults-eps-converted-to.pdf used on input line 264.
 (pdftex.def)             Requested size: 180.67456pt x 108.40527pt.
-
-[10 <C:/Users/agoswami/Dropbox/Localization-PaperWriteup/1.CoNEXT4Shepherd/Figs
-4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_Probabilistic_csd-e
-ps-converted-to.pdf> <C:/Users/agoswami/Dropbox/Localization-PaperWriteup/1.CoN
-EXT4Shepherd/Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_RA
-DAR_csd-eps-converted-to.pdf> <C:/Users/agoswami/Dropbox/Localization-PaperWrit
-eup/1.CoNEXT4Shepherd/Figs4Paper/Mobility/MobilityResults-eps-converted-to.pdf>
-]
+ [10 <./Figs4Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_Probabilistic_csd-eps-converted-to.pdf> <./Figs4
+Paper/CSD/HRComparisons4Paper_CSD/HRComparisonsMedianError_RADAR_csd-eps-converted-to.pdf> <./Figs4Paper/Mobility/Mobili
+tyResults-eps-converted-to.pdf>]
 Missing character: There is no ™ in font cmr10!
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\discussi
-on.tex
+) (discussion.tex
 Underfull \vbox (badness 5050) has occurred while \output is active []
 
 
@@ -986,49 +828,35 @@ Overfull \hbox (1.26317pt too wide) in paragraph at lines 5--23
 []\OT1/cmr/m/n/10 In its cur-rent em-bod-i-ment, Wi-GEM uses a ra-dio prop-
  []
 
-)
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\conclusi
-on.tex)
+) (conclusion.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\main_tri
-als.bbl
+ [11] (main_trials.bbl
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¤ in font cmr10!
-) [12]
-(C:\Users\agoswami\Dropbox\Localization-PaperWriteup\1.CoNEXT4Shepherd\main_tri
-als.aux) ) 
+) [12] (main_trials.aux) ) 
 Here is how much of TeX's memory you used:
- 3560 strings out of 494045
- 57772 string characters out of 3145960
- 115456 words of memory out of 3000000
- 6703 multiletter control sequences out of 15000+200000
+ 3609 strings out of 493328
+ 55531 string characters out of 3139115
+ 121441 words of memory out of 3000000
+ 6993 multiletter control sequences out of 15000+200000
  45559 words of font info for 65 fonts, out of 3000000 for 9000
- 718 hyphenation exceptions out of 8191
- 42i,16n,39p,2096b,421s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmti7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/he
-lvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb
-8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main_trials.pdf (12 pages, 1415433 bytes).
+ 1144 hyphenation exceptions out of 8191
+ 42i,16n,39p,2028b,421s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
+t10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/he
+lvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main_trials.pdf (12 pages, 1414027 bytes).
 PDF statistics:
  234 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
