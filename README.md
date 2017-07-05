@@ -33,4 +33,4 @@ WiFi devices. We demonstrate that WiGEM’s accuracy is at
 par with or better than state-of-the-art techniques but without
 requiring any training.*
 
-The full paper is [here](wigem.pdf)
+The full paper is [here](http://conferences.sigcomm.org/co-next/2011/papers/1569469851.pdf)
